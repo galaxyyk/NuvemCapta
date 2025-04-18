@@ -2,6 +2,7 @@ import path from 'node:path';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
+
 // Error handlers and patches
 const configHorizonsViteErrorHandler = `
 const observer = new MutationObserver((mutations) => {
@@ -155,7 +156,7 @@ const addTransformIndexHtml = {
 // Main configuration
 export default defineConfig({
   plugins: [react(), addTransformIndexHtml],
-  base: '/teste-master/', // Adjust to your repository name
+  base: '/NuvemCapta/', // Adjust to your repository name
   build: {
     outDir: 'dist',
     emptyOutDir: true,
