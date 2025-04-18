@@ -3,9 +3,12 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://galaxyyk.github.io/NuvemCapta/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",  
+    "deploy": "gh-pages -d dist",   
     "preview": "vite preview"
   },
   "dependencies": {
@@ -37,6 +40,7 @@
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "terser": "^5.39.0",
