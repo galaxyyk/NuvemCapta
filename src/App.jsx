@@ -6,7 +6,6 @@ import LoginPage from "@/pages/LoginPage";
 import DashboardPage from "@/pages/DashboardPage";
 import AdminPage from "@/pages/AdminPage";
 import PaymentPage from "@/pages/PaymentPage";
-import AdminPage from './AdminPage.jsx?v=' + Date.now();
 
 function App() {
   return (

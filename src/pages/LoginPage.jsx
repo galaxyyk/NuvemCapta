@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/components/ui/use-toast";
-import { supabase } from "@/lib/supabase"; // Certifique-se de ter configurado o supabase corretamente
+import { supabase } from '@/lib/supabase'
+
 
 const ADMIN_EMAIL = "kauabiruel@proton.me";
 
